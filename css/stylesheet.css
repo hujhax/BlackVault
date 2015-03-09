@@ -1,0 +1,1388 @@
+@font-face {
+	font-family: BlackHPLHS;
+	src: url("../fonts/BlackHPLHS.otf") format("opentype");
+}
+@font-face {
+	font-family: BlackHPLHS;
+	font-weight: bold;
+	src: url("../fonts/BlackHPLHS.otf") format("opentype");
+}
+@font-face {
+	font-family: WW2BlaHPLHS;
+	src: url("../fonts/WW2BlaHPLHS.otf") format("opentype");
+}
+@font-face {
+	font-family: WW2BlaHPLHS;
+	font-weight: bold;
+	src: url("../fonts/WW2BlaHPLHS.otf") format("opentype");
+}
+@font-face {
+	font-family: OldstyHPLHS;
+	src: url("../fonts/OldstyHPLHS.otf") format("opentype");
+}
+@font-face {
+	font-family: OldstyHPLHS;
+	font-weight: bold;
+	src: url("../fonts/OldstyHPLHS.otf") format("opentype");
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+.modal-dialog {
+	padding-top: 100px;
+}
+.modal-dialog p {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: #aaaaaa;
+	font-size: 28px;
+}
+
+.modal-dialog h2 {
+	padding-left: 60px;
+}
+
+.modal-content {
+	background-color: #0f100e;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  /*vertical-align: top;   was mucking up my nav collapser */ 
+  height: 10px;
+
+}
+.navbar .navbar-collapse {
+  text-align: center;
+  
+}
+
+ul.nav {
+	font-family: OldstySCHPLHS;
+	font-size: 35px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+ul.nav li {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+
+}
+/*#hero { 
+	background: url('../images/headerlogo.png') 50% ;
+	background size: 100%; 
+	padding: 40px;								PARALLAX ATTEMPT =((()))
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}*/
+
+.jumbotron {
+	background-image: url('../images/headerlogo.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: #aaaaaa;
+	font-family: OldstyHPLHS;
+	background-position: 150% 50%;
+	height: 450px;
+
+}
+.jumbotron img {
+	padding-top: 50px;
+	padding-left: 100px;
+	height: 400px;
+	width: 400px;
+	margin: auto, 0;
+	float: left;
+
+}
+.jumbotron .container h1 {
+	font-family: OldstyHPLHS;
+	text-align: center;
+	color: #aaaaaa;
+	padding-top: 100px;
+	padding-bottom: 60px;
+
+}
+
+#blackvaultlogo {
+	margin-top: 10px;
+  margin-left: 100px;
+  height: 350px;
+  width: 340px;
+  margin-right: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+#title {
+	font-size: 65px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+
+}
+#tagline {
+	font-size: 30px;
+	letter-spacing: 7px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+.jumbotron .container h4 {
+	color: #aaaaaa;
+}
+
+.jumbotron .container h2 {
+	font-family: OldstyHPLHS;
+	text-align: center;
+	color: #aaaaaa;
+	font-size: 52px;
+}
+.container {
+	padding-bottom: 50px;
+	color: #aaaaaa;
+}
+
+
+#holder #bioshr {
+	border-color: #468260;
+	width: 300px;
+	display: inline-block;
+	margin-top: -200px; 
+}
+h1 {
+	color: #aaaaaa;
+	font-family: OldstyHPLHS;
+	margin-bottom: -10px;
+}
+
+.bioshr {
+	border-color: #468260;
+	width: 300px;
+	display: inline-block;
+	margin-top: -60px;
+	padding-bottom: 10px;
+}
+
+#episodestag {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.biobuttons {
+	background-color: #0f100e;
+	border: 0;
+	outline: 0;
+	outline-color: #0f100e;
+	font-size: 22px;
+}
+
+.bioimg {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+#aboutus {
+	background-color: #0f100e;
+	padding-top: 60px;
+	font-family: OldstyHPLHS;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+#aboutus h2 {
+	margin-top: -10px;
+}
+
+#aboutone {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 26px;
+}
+
+#abouttwo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 26px;
+}
+#aboutthree {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 26px;
+}
+
+#aboutfour {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 26px;
+}
+
+#episodes {
+	background-color: #141613;
+	padding-top: 60px;
+	font-family: OldstyHPLHS;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+#bios {
+	background-color: #0f100e;
+	padding-top: 60px;
+	font-family: OldstyHPLHS;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+#contact {
+	background-color: #141613;
+	padding-top: 60px;
+	font-family: OldstyHPLHS;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+#contact a:hover {
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    text-decoration: none;
+}
+p {
+	margin: 0;
+}
+
+li a:hover {
+	text-shadow: 0px 0px 12px #009900;
+}
+
+#pullright {
+	float:right;
+	padding-top: 25px;
+	width: 140px;
+		text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+             -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+a { 
+	color: #aaaaaa;
+}
+a:hover {
+	color: #aaaaaa;
+}
+#hideoutlogo {
+	height: 70px;
+	width: 70px;
+	float: right;
+	padding: 0;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.desaturate {
+	filter: grayscale(100%);
+		-moz-filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(0.5)
+}
+#backtotop {
+	float: right;
+	padding-top: 40px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+
+footer {
+	/*background-image: url("../images/foggy.jpg");
+	background-repeat: no-repeat;*/
+	background-color: #0f100e;
+	background-height: 100%;
+	background-size: 100%;
+	clear: both;
+	text-align: center;
+	height: 200px;
+	font-family: OldstyHPLHS;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+
+}
+#footerwrapper {
+	padding-top: 60px;
+}
+
+footer p {
+	color: #aaaaaa;
+	margin: 0;
+	font-family: OldstyHPLHS;
+	font-size: 20px;
+
+
+}
+
+#small {
+	width: 150px;
+	display: inline-block;
+	margin-top: -30px !important;
+  padding-top: -40px !important;
+	border-color: #468260;
+
+}
+
+/* 
+
+JQuery bio styles <===========================>
+
+*/
+
+#avatar-icon {
+  margin-top: 20px;
+  width: 200px;
+  text-align: center;
+  padding-top: 6px;
+  cursor: pointer;
+}
+#avatar-icon p{
+  margin-top: 8px;
+  font-size: 24px;
+}
+
+#avatar-icon .authoravi {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* header top bar */
+#topbar {
+  display: inline;
+  /*position: fixed;*/
+  top: 0;
+  width: 100px;
+  min-width: 750px;
+  height: 70px;
+  padding: 0px;
+  z-index: 9999;
+  background-color: #aaaaaa;
+  background-image: -webkit-linear-gradient(top, #aaaaaa, #aaaaaa);
+  background-image: -moz-linear-gradient(top, #6e7cc9, #6a74af);
+  background-image: -ms-linear-gradient(top, #6e7cc9, #6a74af);
+  background-image: -o-linear-gradient(top, #6e7cc9, #6a74af);
+  background-image: linear-gradient(top, #6e7cc9, #6a74af);
+  border-bottom: 1px solid #53597c;
+}
+/** BRAD'S bio box **/
+#author-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 400px;
+  top: 0;
+  left: -35px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+
+#author-bio-box .bigavi {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#author-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+#author-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+
+/* EMILY'S BIO BOX CSS */
+
+#emilysauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 300px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#emilysauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#emilysauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* ANDREAS' BIO BOX CSS */
+
+#andreasauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 300px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#andreasauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#andreasauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* JAY'S BIO BOX CSS */
+
+#jaysauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 300px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#jaysauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#jaysauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* JAYME'S BIO BOX CSS */
+
+#jaymesauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 300px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#jaymesauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#jaymesauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* JESSICA'S BIO BOX CSS */
+
+#jessicasauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 300px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#jessicasauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#jessicasauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* JUSTINS'S BIO BOX CSS */
+
+#justinsauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 400px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#justinsauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#justinsauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* MARC'S BIO BOX CSS */
+
+#marcsauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 400px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#marcsauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#marcsauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* PAUL'S BIO BOX CSS */
+
+#paulsauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 400px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#paulsauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#paulsauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* PETER'S BIO BOX CSS */
+
+#petersauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 400px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#petersauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#petersauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* ROY'S BIO BOX CSS */
+
+#roysauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 400px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#roysauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#roysauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* RYAN'S BIO BOX CSS */
+
+#ryansauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 400px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#ryansauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#ryansauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* BRENT'S BIO BOX CSS */
+
+#brentsauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  max-width: 400px;
+  top: 0;
+
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#brentsauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#brentsauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* CLAY'S BIO BOX CSS */
+
+#claysauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  max-width: 400px;
+  top: 0;
+
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#claysauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#claysauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+#biotarget14 {
+  margin-top: 40px;
+}
+
+/* LINDSEY'S BIO BOX CSS */
+
+#lindseysauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  max-width: 400px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#lindseysauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#lindseysauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+#lindseysauthor-bio-box img {
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+/* CINDYS' BIO BOX CSS */
+
+#cindysauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 300px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#cindysauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#cindysauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+#cindysauthor-bio-box img {
+  width: 200px;
+  height: 200px;
+}
+
+
+/* MICHAELS' BIO BOX CSS */
+
+#michaelsauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 300px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#michaelsauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#michaelsauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+#michaelsauthor-bio-box img {
+  width: 200px;
+  height: 200px;
+}
+
+/* NATES' BIO BOX CSS */
+
+#natesauthor-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 300px;
+  top: 0;
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+#natesauthor-bio-box p {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #fff;
+  cursor: text;
+  text-align: left;
+}
+#natesauthor-bio-box h2 {
+  display: block;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #fff;
+  cursor: text;
+  font-variant: small-caps;
+  letter-spacing: -0.03em;
+}
+
+/* Media Queries for responsiveness */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (max-width: 1199px) { 
+.jumbotron {
+	background-image: url('../images/headerlogo.png');
+	background-repeat: no-repeat;
+	/*background-color: #141613;*/
+	background-size: 100%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: #aaaaaa;
+	font-family: OldstyHPLHS;
+	background-position: 150% 50%;
+	margin-bottom: -125px;
+	margin-top: -24px;
+	padding-top: 5px;
+}
+
+#title {
+	font-size: 42px;
+}
+#associationwrapper {
+	display: none;
+  color: #aaa !important;
+}
+#pullright {
+	margin-top: 40px;
+
+}
+#tagline {
+	padding-bottom: 75px;
+	font-size: 26px;
+}
+.modal-dialog {
+	padding-top: 200px;
+}
+.modal-dialog p {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #aaaaaa;
+	font-size: 16px;
+}
+
+.modal-dialog h2 {
+	padding-left: 49px;
+	font-size: 20px;
+}
+#email {
+	font-size: 20px;
+}
+#feedwindwrapper {
+	max-width: 100px;
+	float: left;
+}
+
+#blackvaultlogo {
+ display: none;
+}
+
+.container #title {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+#author-bio-box {
+  display: none;
+  position: absolute;
+  cursor: default;
+  width: 300px;
+  top: 0;
+  left: 55px;
+  padding: 5px 15px 8px 15px;
+  background: rgba(20,20,20,0.9);
+  z-index: 99999;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
+}
+}
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	 .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+
+#itunes {
+  background-color: #468260;
+  border-color: #468260;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#hero {
+    background: url('../images/headerlogo.png') fill;
+    min-height: 300px;
+
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1, h2 {
+  margin: 0 0 40px;
+}
+h3 {
+  margin: 20px 0; 
+}
+h4 {
+  font-size: 18px;
+}
+
+p.lead {
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+
+a:hover {
+  text-decoration: none;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+
+}
+
+button, input, .btn, a.btn {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: white;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+button.btn:focus {
+  outline: none !important;
+}
+
+.btn-danger {
+  background-color: #dd5638;
+  border-collapse: #d95131;
+}
+
+.btn-success {
+  background: #79b044;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #6a9b3d;
+  border-color: #6a9b3d;
+}
+
+img {
+  max-width: 100%;
+}
+
+.modal-content {
+  background: url('../img/tile.jpg') top left repeat;
+}
+
+.badge.social {
+  background: #ccc;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  line-height: 42px;
+  text-align: center;
+  margin: 0 5px 20px 0;
+  padding: 0;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  color: white;
+}
+
+.badge.social.twitter:hover {
+  background: #55acee;
+}
+.badge.social.facebook:hover {
+  background: #3b5998;
+}
+.badge.social.gplus:hover {
+  background: #db4b39;
+}
+
+blockquote {
+  padding: 0;
+  border: none;
+  font-style: italic;
+  text-align: left;
+}
+
+blockquote cite {
+  display: block;
+  color: #777;
+  margin: 15px 0 0 0;
+}
+
+blockquote:before {
+  display: none;
+}
