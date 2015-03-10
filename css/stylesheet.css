@@ -215,57 +215,25 @@ section {
   text-rendering: optimizeLegibility;
 }
 
-#aboutus {
-	background-color: #0f100e;
+section:nth-child(odd) {
+  background-color: #141613; 
 }
 
-#aboutus h2 {
-	margin-top: -10px;
+section:nth-child(even) {
+  background-color: #0f100e; 
 }
 
-#aboutone {
+#aboutus p {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 26px;
 }
 
-#abouttwo {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 26px;
-}
-#aboutthree {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 26px;
-}
-
-#aboutfour {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 26px;
-}
-
-#episodes {
-	background-color: #141613;
-}
-#bios {
-	background-color: #0f100e;
-	padding-top: 60px;
-	font-family: OldstyHPLHS;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-}
-#contact {
-	background-color: #141613;
-}
 #contact a:hover {
     text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
     text-decoration: none;
 }
+
 p {
 	margin: 0;
 }
