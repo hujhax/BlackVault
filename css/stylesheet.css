@@ -508,6 +508,9 @@ blockquote:before {
   .jumbotron .container h2 {
     padding-bottom: 3px;
   }
+  .navbar-nav {
+    height: 160px; /* total hack; vertical menu was clipping to 30px */
+  }
 }
 
 @media (max-width: 350px) {
