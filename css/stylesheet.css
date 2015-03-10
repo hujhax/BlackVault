@@ -45,7 +45,7 @@ body {
 	padding-bottom: 40px;
 	padding-left: 100px;
 	padding-right: 100px;
-	color: #aaaaaa;
+	color: white;
 	font-size: 28px;
 }
 
@@ -85,7 +85,7 @@ ul.nav li {
 	background-size: 100%;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	color: #aaaaaa;
+	color: white;
 	font-family: OldstyHPLHS;
 	background-position: 150% 50%;
 	height: 450px;
@@ -103,7 +103,7 @@ ul.nav li {
 .jumbotron .container h1 {
 	font-family: OldstyHPLHS;
 	text-align: center;
-	color: #aaaaaa;
+	color: white;
 	padding-top: 100px;
 	padding-bottom: 60px;
 
@@ -128,22 +128,22 @@ ul.nav li {
 	text-rendering: optimizeLegibility;
 }
 .jumbotron .container h4 {
-	color: #aaaaaa;
+	color: white;
 }
 
 .jumbotron .container h2 {
 	font-family: OldstyHPLHS;
 	text-align: center;
-	color: #aaaaaa;
+	color: white;
 	font-size: 52px;
 }
 .container {
 	padding-bottom: 50px;
-	color: #aaaaaa;
+	color: white;
 }
 
 h1 {
-	color: #aaaaaa;
+	color: white;
 	font-family: OldstyHPLHS;
 	margin-bottom: -10px;
 }
@@ -271,7 +271,7 @@ footer {
 }
 
 footer p {
-	color: #aaaaaa;
+	color: white;
 	margin: 0;
 	font-family: OldstyHPLHS;
 	font-size: 20px;
@@ -307,8 +307,8 @@ footer p {
   height: 70px;
   padding: 0px;
   z-index: 9999;
-  background-color: #aaaaaa;
-  background-image: -webkit-linear-gradient(top, #aaaaaa, #aaaaaa);
+  background-color: white;
+  background-image: -webkit-linear-gradient(top, white, white);
   background-image: -moz-linear-gradient(top, #6e7cc9, #6a74af);
   background-image: -ms-linear-gradient(top, #6e7cc9, #6a74af);
   background-image: -o-linear-gradient(top, #6e7cc9, #6a74af);
@@ -339,7 +339,7 @@ footer p {
 	background-size: 100%;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	color: #aaaaaa;
+	color: white;
 	font-family: OldstyHPLHS;
 	background-position: 150% 50%;
 	margin-bottom: -125px;
@@ -362,7 +362,7 @@ footer p {
 	padding-bottom: 40px;
 	padding-left: 50px;
 	padding-right: 50px;
-	color: #aaaaaa;
+	color: white;
 	font-size: 16px;
 }
 
