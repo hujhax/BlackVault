@@ -78,15 +78,6 @@ ul.nav li {
 	padding-top: 5px;
 
 }
-/*#hero { 
-	background: url('../images/headerlogo.png') 50% ;
-	background size: 100%; 
-	padding: 40px;								PARALLAX ATTEMPT =((()))
-	color: white;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-}*/
-
 .jumbotron {
 	background-image: url('../images/headerlogo.jpg');
   background-color: black;
