@@ -370,16 +370,6 @@ footer p {
   letter-spacing: -0.03em;
   margin-bottom: 0;
 }
-.bio-full h2.production-role {
-  font-size: 1.5em;
-  margin-top: 0;
-}
-.bio-full h2.production-role:before {
-  content: "(";
-}
-.bio-full h2.production-role:after {
-  content: ")";
-}
 .bio-full p {
   display: block;
   font-size: 1.5em;
