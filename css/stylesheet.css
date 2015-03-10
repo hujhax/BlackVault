@@ -95,7 +95,7 @@ ul.nav li {
 	padding-top: 50px;
 	padding-left: 100px;
 	height: 400px;
-	width: 400px;
+	width: 100%;
 	margin: auto, 0;
 	float: left;
 
@@ -142,24 +142,29 @@ ul.nav li {
 	color: #aaaaaa;
 }
 
-
-#holder #bioshr {
-	border-color: #468260;
-	width: 430px;
-	display: inline-block;
-  margin-bottom: 0px !important;
-}
 h1 {
 	color: #aaaaaa;
 	font-family: OldstyHPLHS;
 	margin-bottom: -10px;
 }
 
-.bioshr {
+h2 {
+  margin-bottom: -12px;
+}
+
+.header-line {
 	border-color: #468260;
-	width: 430px;
 	display: inline-block;
-  margin-bottom: 0px !important;
+}
+
+.big.header-line {
+  width: 400px;
+  margin-bottom: 0px;
+}
+
+.small.header-line {
+  width: 200px;
+  margin-bottom: 11px;
 }
 
 #episodestag {
@@ -270,13 +275,6 @@ footer p {
 	margin: 0;
 	font-family: OldstyHPLHS;
 	font-size: 20px;
-}
-
-#small {
-	width: 200px;
-	display: inline-block;
-	margin-top: 0px !important;
-	border-color: #468260;
 }
 
 .bio {
@@ -519,3 +517,11 @@ blockquote:before {
   }
 }
 
+@media (max-width: 450px) {
+  .big.header-line {
+    width: 200px;
+  }
+  .small.header-line {
+    width: 150px;
+  }
+} 
