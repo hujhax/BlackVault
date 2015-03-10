@@ -296,13 +296,24 @@ footer p {
 	border-color: #468260;
 }
 
+.bio {
+  padding-bottom: 13px;
+  margin-left: 15px;
+  border-bottom: 1px solid #333333;
+}
+
 .bio img {
   width: 100px;
   height: 100px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  display: inline-block;
+}
+
+.bio:after {
+  content:"";
+  display:table;
+  clear:both;
 }
 
 /* header top bar */
@@ -330,7 +341,6 @@ footer p {
   color: #fff;
   cursor: text;
   text-align: left;
-  display: inline-block;
 }
 
 /* Media Queries for responsiveness */
