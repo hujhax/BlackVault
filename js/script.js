@@ -13,14 +13,10 @@ $(function() {
     });
 });
 
-var hoverLogic = function(topbar, target, biobox) {
-  $(topbar).on('mouseenter', target, function(e){ 
-    $(this).siblings(biobox).css('display','block');
-  });
+$(".bio-thumbnail").on('mouseenter', ".authoravi", function(e) {
+    $(this).siblings(".bio-full").css('display', 'block');
+});
 
-  $('body').on('mouseleave', biobox, function(e){
-    $(this).css('display','none');
-  });
-}
-
-hoverLogic(".bio-thumbnail", ".authoravi", ".bio-full");
+$('body').on('mouseleave', ".bio-full", function(e) {
+    $(this).css('display', 'none');
+});
