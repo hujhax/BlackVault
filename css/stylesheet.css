@@ -181,7 +181,10 @@ h1 {
 
 #episodestag {
   padding-bottom: 20px;
-  padding-left: 20px;
+}
+
+.rss-feed {
+  margin-left: -7px;
 }
 
 .biobuttons {
