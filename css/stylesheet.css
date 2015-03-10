@@ -161,7 +161,7 @@ ul.nav li {
 
 #holder #bioshr {
 	border-color: #468260;
-	width: 300px;
+	width: 430px;
 	display: inline-block;
   margin-bottom: 0px !important;
 }
@@ -173,7 +173,7 @@ h1 {
 
 .bioshr {
 	border-color: #468260;
-	width: 300px;
+	width: 430px;
 	display: inline-block;
   margin-bottom: 0px !important;
 }
@@ -251,7 +251,7 @@ li a:hover {
              -webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
-a { 
+a {
   color: #468260;
 }
 a:hover {
