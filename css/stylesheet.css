@@ -364,10 +364,10 @@ footer p {
 #title {
 	font-size: 42px;
 }
-#tagline {
-	padding-bottom: 75px;
-	font-size: 26px;
+.jumbotron .container h1 {
+  padding-bottom: 20px;
 }
+
 .modal-dialog {
 	padding-top: 200px;
 }
@@ -394,11 +394,6 @@ footer p {
 
 #blackvaultlogo {
  display: none;
-}
-
-.container #title {
-  font-size: 30px;
-  padding-top: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -565,4 +560,19 @@ blockquote cite {
 
 blockquote:before {
   display: none;
+}
+
+@media (max-width: 768px) { 
+  #tagline {
+    font-size: 20px;
+  }
+  .jumbotron .container h2 {
+    padding-bottom: 3px;
+  }
+}
+
+@media (max-width: 350px) {
+  #tagline {
+    display: none;
+  }
 }
