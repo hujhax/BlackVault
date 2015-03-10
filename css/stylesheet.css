@@ -29,6 +29,7 @@
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
+  background-color: black !important;
 }
 .modal-dialog {
 	padding-top: 100px;
