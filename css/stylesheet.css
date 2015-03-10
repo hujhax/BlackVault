@@ -228,7 +228,6 @@ section:nth-child(even) {
 	padding-bottom: 10px;
 	font-size: 26px;
 }
-
 #contact a:hover {
     text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
     text-decoration: none;
@@ -253,10 +252,10 @@ li a:hover {
 	text-rendering: optimizeLegibility;
 }
 a { 
-	color: #aaaaaa;
+  color: #468260;
 }
 a:hover {
-	color: #aaaaaa;
+	color: #468260;
 }
 #hideoutlogo {
 	height: 70px;
