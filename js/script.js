@@ -12,11 +12,3 @@ $(function() {
         }
     });
 });
-
-$(".bio-thumbnail").on('mouseenter', ".authoravi", function(e) {
-    $(this).siblings(".bio-full").css('display', 'block');
-});
-
-$('body').on('mouseleave', ".bio-full", function(e) {
-    $(this).css('display', 'none');
-});

@@ -310,12 +310,13 @@ footer p {
 	border-color: #468260;
 }
 
-#avatar-icon {
-  width: 200px;
-  cursor: pointer;
+.bio-thumbnail:after {
+  content:"";
+  display:table;
+  clear:both;
 }
 
-#avatar-icon p{
+#avatar-icon p {
   margin-top: 8px;
   font-size: 24px;
 }
@@ -326,6 +327,7 @@ footer p {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  float: left;
 }
 
 /* header top bar */
@@ -347,23 +349,6 @@ footer p {
   border-bottom: 1px solid #53597c;
 }
 
-.bio-full {
-  display: none;
-  position: absolute;
-  cursor: default;
-  width: 400px;
-  top: 0;
-  left: -35px;
-  padding: 5px 15px 8px 15px;
-  background: rgba(20,20,20,0.9);
-  z-index: 99999;
-  -webkit-border-radius: 0 0 7px 7px;
-  -moz-border-radius: 0 0 7px 7px;
-  border-radius: 0 0 7px 7px;
-  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
-  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
-  box-shadow: 1px 1px 4px rgba(0,0,0,0.6), -1px -1px 3px rgba(0,0,0,0.5) inset;
-}
 
 .bio-full .bigavi {
   width: 200px;
