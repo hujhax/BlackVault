@@ -378,12 +378,23 @@ footer p {
   display: block;
   font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
   font-size: 2.5em;
-  line-height: 1.5em;
+  line-height: 1.2em;
   text-align: center;
   color: #fff;
   cursor: text;
   font-variant: small-caps;
   letter-spacing: -0.03em;
+  margin-bottom: 0;
+}
+.bio-full h2.production-role {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+.bio-full h2.production-role:before {
+  content: "(";
+}
+.bio-full h2.production-role:after {
+  content: ")";
 }
 .bio-full p {
   display: block;
