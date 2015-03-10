@@ -187,6 +187,10 @@ h1 {
   margin-left: -7px;
 }
 
+.rss-credit {
+  font-size: 8px;
+}
+
 .biobuttons {
 	background-color: #0f100e;
 	border: 0;
