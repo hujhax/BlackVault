@@ -527,7 +527,7 @@ blockquote:before {
     padding-bottom: 3px;
   }
   .navbar-nav {
-    height: 160px !important; /* total hack; vertical menu was clipping to 30px */
+    height: 170px !important; /* total hack; vertical menu was clipping to 30px */
   }
 }
 
